@@ -13,7 +13,7 @@ var QA=[
 
 
 ];
-var number=5;
+var number=20;
 var trueAnswers=[0,1,2];
 var intervalId;
 var userAnswers=new Array(QA.length);
