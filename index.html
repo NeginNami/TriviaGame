@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+</head>
+<body>
+	<h1>Totatlly Trivial Trivia</h1>
+	<button id="start">Start</button>
+	
+	<div id="main">
+		<div id="timeRemaining"></div>
+		<form>
+			<div id="questions"></div>
+			<button id="doneButton" style="display: none; margin-top: 20px;" >Done</button>
+		</form>
+	</div>
+
+
+	<div id="over" style="display: none;">
+		<h2>All Done!</h2>
+		<h3>Correct Answers: <div style="display: inline;" id="c"></div> </h3>
+		<h3>Incorrect Answers: <div style="display: inline;" id="i"></div> </h3>
+		<h3>Unanswered: <div style="display: inline;" id="u"></div> </h3>
+	</div>
+	
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
