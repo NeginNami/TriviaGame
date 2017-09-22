@@ -1,0 +1,48 @@
+
+.container-fluid{
+	background-image: url("../images/Movie.jpg");
+}
+.container{
+	opacity: 0.95;
+}
+.q{
+	margin-bottom: 15px;
+	margin-top: 20px;
+	border-top: 1px #e3dada solid;
+	padding-top: 10px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 20px;
+}
+h1{
+	font-family: 'Luckiest Guy', cursive;
+	margin-top: 60px;
+
+}
+#answ{
+	font-family: 'Libre Franklin', sans-serif;
+}
+#over{
+	padding-bottom: 470px;
+	font-family: 'Amaranth', sans-serif;
+	color: #262020;
+}
+#allDone{
+	margin-top: 25px;
+	
+}
+#start{
+	margin-bottom: 590px;
+}
+#pic_section{
+	border-top: 1px #e3dada solid;
+	margin-top: 29px;
+	border-bottom: 1px #e3dada solid;
+	margin-bottom: 54px;
+}
+#doneButton{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+#timeRemaining{
+	color: red;
+}
